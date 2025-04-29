@@ -19,4 +19,5 @@
     - Spring Data JPA
     - MySQL Driver
     - Validation
-2. 
+2. IntelliJ 프로젝트 초기 설정
+  - application.properties
