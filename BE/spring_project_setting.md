@@ -1,3 +1,15 @@
 1. spring 프로젝트 생성
   - https://start.spring.io/
-3. 
+  - Gradle - Groovy
+  - Java
+  - 3.4.5 ver
+  - Project settings
+    - Group : com.toyproject
+    - Artifact : todolist
+    - Name : todolist
+    - Description : default
+    - Package name : com.toyproject.todolist
+    - Packaging : Jar
+    - Java : 17
+  - Dependencies
+2. 
