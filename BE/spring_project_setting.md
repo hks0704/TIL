@@ -12,4 +12,11 @@
     - Packaging : Jar
     - Java : 17
   - Dependencies
+    - Spring Boot DevTools
+    - Spring Web
+    - Lombok
+    - Spring Security
+    - Spring Data JPA
+    - MySQL Driver
+    - Validation
 2. 
