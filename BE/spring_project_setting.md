@@ -33,3 +33,5 @@
   Settings > Editor > General > Auto Import > Kotlin > Optimize imports on the fly
   ```
   - application.properties
+3. gitignore 설정
+4. build gradle 설정 및 실행
