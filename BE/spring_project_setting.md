@@ -24,4 +24,12 @@
   ```
   spring.output.ansi.enabled=always
   ```
+  - settings check list
+  ```
+  Settings > Advanced Settings > Compiler > Allow auto-make to start even if developed application is currently runnning
+  Settings > Build, Execution, Deployment > Compiler > Build project automatically
+  Settings > Build, Execution, Deployment > Compiler > Annotation Processors > Enable annotation processing
+  Settings > Editor > General > Auto Import > Java > Optimize imports on the fly
+  Settings > Editor > General > Auto Import > Kotlin > Optimize imports on the fly
+  ```
   - application.properties
