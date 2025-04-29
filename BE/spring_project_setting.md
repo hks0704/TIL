@@ -20,4 +20,8 @@
     - MySQL Driver
     - Validation
 2. IntelliJ 프로젝트 초기 설정
+  - 콘솔 색상 변경
+  ```
+  spring.output.ansi.enabled=always
+  ```
   - application.properties
