@@ -52,12 +52,12 @@
 			- MemberController.java
 		- model
 			- dto
-				-auth
-     					1. CustomOAuth2User.java
-					2. GoogleOAuth2UserInfo.java
-					3. KakaoOAuth2UserInfo.java
-					4. OAuth2Attributes.java
-					5. OAuth2UserInfo.java
+				- auth
+     					- CustomOAuth2User.java
+					- GoogleOAuth2UserInfo.java
+					- KakaoOAuth2UserInfo.java
+					- OAuth2Attributes.java
+					- OAuth2UserInfo.java
 			- MemberRequestDto.java
 			- MemberResponseDto.java
 			- MemberUpdateResponseDto.java
