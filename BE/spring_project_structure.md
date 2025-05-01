@@ -53,11 +53,12 @@
 		- model
 			- dto
 				- auth
-     					- CustomOAuth2User.java
+     					
 					- GoogleOAuth2UserInfo.java
 					- KakaoOAuth2UserInfo.java
 					- OAuth2Attributes.java
 					- OAuth2UserInfo.java
+					- CustomOAuth2User.java
 			- MemberRequestDto.java
 			- MemberResponseDto.java
 			- MemberUpdateResponseDto.java
