@@ -23,7 +23,7 @@ DESC test1;
 CREATE EVENT IF NOT EXISTS test_event
 	ON SCHEDULE EVERY 1 SECOND
     STARTS now()
-    ENDS '2025-06-10 01:00:00'
+    ENDS date_add(now(), interval 10 minute)
     COMMENT 'test scheduler comment'
     DO INSERT INTO test1 (message) VALUES ('hello');
 SELECT * FROM test1;
