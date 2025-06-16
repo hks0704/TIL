@@ -1,0 +1,32 @@
+CREATE TABLE member (
+	id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    name VARCHAR(20),
+    email VARCHAR(255),
+    password VARCHAR(255),
+    last_login TIMESTAMP,
+    is_active TINYINT(1) DEFAULT 1
+);
+
+INSERT INTO member (name, email, password, last_login) VALUES
+	('김현진','sample@naver.com','1234',now()),
+	('박지영','sample@gmail.com','3333',date_add(now(), INTERVAL -1 YEAR)),
+	('최영수','sample2@gmail.com','1234',date_add(now(), INTERVAL -4 MONTH)),
+	('홍춘길','sample123@naver.com','1234',date_add(now(), INTERVAL -2 DAY)),
+	('방윤지','sample5555@naver.com','1234',date_add(now(), INTERVAL -6 HOUR)),
+	('최현호','sample789@gmail.com','1234',date_add(now(), INTERVAL -3 MONTH)),
+	('조영훈','sampleABC@naver.com','1234',date_add(now(), INTERVAL -120 MINUTE));
+
+SELECT * FROM member;
+    
+CREATE EVENT IF NOT EXISTS member_inactive_schedule
+	ON SCHEDULE EVERY 1 DAY
+    STARTS TIMESTAMP(CURRENT_DATE + INTERVAL 1 HOUR)
+    COMMENT '매일 새벽1시에 30일 이상 로그인 하지 않은 사용자를 비활성화 상태로 업데이트한다.'
+    DO 	UPDATE member 
+		SET is_active = 0
+		WHERE date_add(last_login, INTERVAL 30 DAY)<=now();
+
+SELECT * FROM information_schema.EVENTS;
+
+# SELECT * FROM member;
+# DROP EVENT IF EXISTS member_inactive_schedule;
