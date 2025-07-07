@@ -5,3 +5,4 @@
   datasource:
     url: jdbc:mysql://{MySQL_server_url}:{port}/{DB_name}?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
 ```
+- gradle Build 과정에서 오류가 발생할 때(gradle metadata.bin (지정된 파일을 찾을 수 없습니다)) : `.gradle/cache` 디렉터리를 삭제하고 IntelliJ 재실행
