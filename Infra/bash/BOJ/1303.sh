@@ -1,3 +1,4 @@
+# 1330. 두 수 비교하기
 #!/bin/bash
 read A B
 if [ $A -lt $B ]; then
