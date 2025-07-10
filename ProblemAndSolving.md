@@ -7,3 +7,6 @@
 ```
 - gradle Build 과정에서 오류가 발생할 때(gradle metadata.bin (지정된 파일을 찾을 수 없습니다)) : `.gradle/cache` 디렉터리를 삭제하고 IntelliJ 재실행
 - SpringBoot 테스트 코드 실행시 `UserControllerTest.class`를 찾을 수 없다는 오류가 발생 : IDE에서 invalid cache를 지우고 재시작
+- `npm run dev`실행시 TypeError: crypto.hash is not a function 문제 발생
+  - 최신 Vite가 최신 Node.js 버전을 요구하기 때문에 발생하는 문제
+  - 현재 Node 버전과 호환되는 Vue 버전을 설치하거나 Node.js를 최신 버전으로 업그레이드
