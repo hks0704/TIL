@@ -21,3 +21,4 @@ export default defineConfig({
 ```bash
 @import "tailwindcss";
 ```
+- tip : Tailwind CSS IntelliSense 플러그인으로 자동완성 가능
