@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: {project name}
+
+  # Setting color console log
+  output:
+    ansi:
+      enabled: always
+
+  # MySQL DB
+  datasource:
+    url: jdbc:mysql://{Host}:{포트번호}/{DB명}?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: {DB이름}
+    password: {DB비밀번호}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+        use_sql_comments: true
+    show-sql: true
+
+  # Redis Settings
+  data:
+    redis:
+      port: {포트번호}
+      host: {Host}
+#      password: 없을 경우 작성 안해도 됨
+
+jwt:
+  secretKey: {secretKey}
+  access:
+    header: Authorization
+    expiration: 1000000
+  refresh:
+    header: Authorization-refresh
+    expiration: 1000000
+
+logging:
+  level:
+    org:
+      hibernate:
+        type:
+          descriptor:
+            sql: trace
