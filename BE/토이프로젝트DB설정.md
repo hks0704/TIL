@@ -9,5 +9,5 @@ GRANT ALL PRIVILEGES ON *.* TO {사용자명};
 # DB settings
 DROP DATABASE IF EXISTS {DB명};
 CREATE DATABASE {DB명};
-USE {DB};
+USE {DB명};
 ```
