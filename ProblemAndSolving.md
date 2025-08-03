@@ -19,3 +19,4 @@
   #include "../Parser/Main.h"  // good
 
   ```
+- visual studio에서 전각문자로 입력되는 오류 : `"alt" + "="`으로 변경
