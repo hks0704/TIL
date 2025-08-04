@@ -33,6 +33,11 @@
   Settings > Editor > General > Auto Import > Kotlin > Optimize imports on the fly
   ```
   - application.properties
+  - 코딩 컨벤션 xml 적용, 저장 시 자동 적용
+  ```
+  Settings > Editor > Code Style > Java > Scheme > Import Scheme > IntelliJ IDEA code style XML > 미리 받아놓은 xml 코딩 컨벤션 적용
+  Settings > Tools > Actions on Save > Reformat code + Optimize imports 둘 다 체크
+  ```
 3. gitignore 설정
 4. build gradle 설정 및 실행
 5. 도메인, 폴더 구조 설계
