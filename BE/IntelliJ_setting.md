@@ -3,5 +3,10 @@
 ## 문자 인코딩 설정
 - File > Settings > Editor > File Encodings
 - **Global Encoding, Project Encoding, Properties Files** 3가지 `UTF-8` 체크
+- **Help > Edit Custom VM Options >** 맨 밑에 아래 코드 추가
+```
+-Dfile.encoding=UTF-8
+-Dconsole.encoding=UTF-8
+```
 ## 자동 컴파일
 - File > Settings > Build, Execution, Deployment > Compiler > Build project automatically 체크
