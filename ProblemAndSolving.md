@@ -22,3 +22,5 @@
 - visual studio에서 전각문자로 입력되는 오류 : `"alt" + "="`으로 변경
 - DOM 트리 함수 null 참조 오류 : js 파일을 가져오는 <script>태그는 제일 아래에 배치한다!
 - cmd 창에서 `mysql -u root -p` 입력시 "'mysql'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다" 오류 발생 : 환경변수(시스템변수 PATH) 추가
+- [에러] Caused by: io.jsonwebtoken.security.WeakKeyException : 서명에 사용하는 시크릿 키가 너무 짧아서 발생하는 오류, yml에 정의한 key값의 길이를 늘린다
+- [에러] No serializer found for class {클래스명} : private로 선언한 필드에 접근하기 위해 getter를 추가한다
