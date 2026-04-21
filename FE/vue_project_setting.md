@@ -14,7 +14,7 @@ npm init vue@latest my-vue-project
 cd my-vue-project
 npm install
 ```
-4. tailwindCSS install
+4. tailwindCSS install(React에도 해당)
 ```
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
