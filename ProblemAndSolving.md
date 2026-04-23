@@ -24,3 +24,5 @@
 - cmd 창에서 `mysql -u root -p` 입력시 "'mysql'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다" 오류 발생 : 환경변수(시스템변수 PATH) 추가
 - [에러] Caused by: io.jsonwebtoken.security.WeakKeyException : 서명에 사용하는 시크릿 키가 너무 짧아서 발생하는 오류, yml에 정의한 key값의 길이를 늘린다
 - [에러] No serializer found for class {클래스명} : private로 선언한 필드에 접근하기 위해 getter를 추가한다
+- 스프링 4버전에서 gradle 빌드 오류
+  - `gradle-wrapper.properties` 에 `distributionUrl`을 최신 버전으로 교체
