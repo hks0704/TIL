@@ -26,3 +26,5 @@
 - [에러] No serializer found for class {클래스명} : private로 선언한 필드에 접근하기 위해 getter를 추가한다
 - 스프링 4버전에서 gradle 빌드 오류
   - `gradle-wrapper.properties` 에 `distributionUrl`을 최신 버전으로 교체
+- 현재 실행중인 프로그램 때문에 gradle 캐시 삭제가 안되는 오류
+  - java 관련 프로세스 종료
