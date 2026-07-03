@@ -28,3 +28,10 @@
   - `gradle-wrapper.properties` 에 `distributionUrl`을 최신 버전으로 교체
 - 현재 실행중인 프로그램 때문에 gradle 캐시 삭제가 안되는 오류
   - java 관련 프로세스 종료
+- 특별히 `우분투`에서 vi 입력모드 사용시 방향키를 누를 때 A,B,C,D 입력 오류
+  - 1. vim을 설치해서 쓰거나
+    ```bash
+    sudo apt update
+    sudo apt install vim
+    ```
+  - 2. 조금 복잡해도 설정을 찾아서 고치거나
