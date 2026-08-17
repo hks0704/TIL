@@ -17,3 +17,6 @@
 - Import Scheme > IntelliJ IDEA Code Style XML
 - 미리 가져온 xml 파일 선택 및 적용
 - 단축키 : `ctrl + alt + L`
+- 저장시 자동 적용
+  - Settings > Tools > Actions on Save
+  - Reformat code 체크
