@@ -10,3 +10,10 @@
 ```
 ## 자동 컴파일
 - File > Settings > Build, Execution, Deployment > Compiler > Build project automatically 체크
+
+## 코드 컨벤션 xml 파일 적용
+- File > Settings > Editor > Code Style > Java
+- 톱니바퀴 아이콘
+- Import Scheme > IntelliJ IDEA Code Style XML
+- 미리 가져온 xml 파일 선택 및 적용
+- 단축키 : `ctrl + alt + L`
